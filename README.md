@@ -1,3 +1,5 @@
+## 01/-init 
+# présenter webpack , webpack.config.js, entry/output,script de cmd ,  import ...
 # création du fichier package.json
 npm init -y
 
