@@ -34,5 +34,17 @@ npm run webpack
 
  node ./dist/main.js
 
- # présenter les modules : import /require etc..
+# rajouter un   dans la section script  du fichier webpack.conf.js
+ "debugthis":"node --inspect --inspect-brk ./src/index.js"
+
+# puis dans chrome , écrire chrome://inspec
+
+# install nodemon : automatiser le rédemarrage du devServ chaque fois que les fichiers de conf sont maj
+ npm install nodemon --save-dev
+# rajouter dans
+"start": "nodemon --watch webpack.config.js --exec webpack-dev-server --env development"
+
+# présenter les modules : import /require etc..
+
+ 
  
