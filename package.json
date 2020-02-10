@@ -10,6 +10,7 @@
     "prod": "webpack --mode production",
     "dev:debug": "webpack --mode development --watch",
     "build": "webpack --config webpack.config.js --mode production",
+    "start": "webpack-dev-server --config webpack.config.js --open --mode development",
     "devl": "webpack  --config webpack.config.js --mode development",
     "debugthis": "node --inspect --inspect-brk ./src/index.js"
   },
@@ -26,7 +27,10 @@
   "homepage": "https://github.com/hmahroug/webpacktraining#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-manifest-plugin": "^2.2.0"
   }
 }

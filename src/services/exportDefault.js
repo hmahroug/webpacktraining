@@ -1,7 +1,8 @@
  
 function notify(message){
-    alert(message);
+    console.log(message);
 }
+ 
 
 function logtest(message){
     console.log(message);

@@ -1,5 +1,5 @@
 // export nommé
-const YEAR = "2015";  
+var YEAR = "2015";  
   function sayHi(user) {
     return `Hello, ${user}!`;
   } 
