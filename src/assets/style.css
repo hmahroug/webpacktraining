@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/HelvNeue35_Cyr.ttf') format('font-truetype');
+    src: url('./fonts/HelvNeue45_Itl.ttf') format('font-truetype') ,
+         url('./fonts/HelvNeue55_Itl.ttf') fformat('font-truetype'),
+         url('./fonts/HelvNeue65_Cyr.ttf') format('font-truetype'),
+         url('./fonts/HelvNeue75_Cyr.ttf') format('font-truetype');      
+    font-weight: normal;
+    font-style: normal;
+    }
+body {
+    background-color:red;
+    font-family: 'Helvetica 35', sans-serif;  
+    font-size: 100%;
+}

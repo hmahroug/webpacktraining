@@ -7,6 +7,19 @@ import * as avion from "./services/avion"; // import de tout ce qui était expor
 import  adp from './services/aeroport'; // import default
 
 import test from './services/deneigement';
+
+import "../src/assets/style.css";
+import "../src/assets/style2.css";
+import "../src/assets/style3.less";
+
+import image from './assets/images/A330.jpg';
+
+ 
+
+ 
+const homeImg = document.getElementById('image');
+homeImg.src = image;
+
 let a = new adp();
 
 let msg=test();

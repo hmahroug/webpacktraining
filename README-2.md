@@ -7,6 +7,7 @@ npm i -D clean-webpack-plugin
 # modifier le fichier de configuration webpack.conf.js pour faire foncionner cleanwepackplugin
 lire la doc npm
 
+# Conf et output management
 # expliquer les mode de compilation : https://webpack.js.org/configuration/mode/
 
 # installer HtmlWebpackPlugin
@@ -24,3 +25,6 @@ npm i -D webpack-dev-server
 
 # modifier le fichier html et constater la prise en compte des modif à la volé
 
+# installer manifest plugin 
+npm install --save-dev webpack-manifest-plugin
+# configurer le plugin manifest
